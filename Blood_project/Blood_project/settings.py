@@ -26,7 +26,7 @@ SECRET_KEY = 'odd03!^r$4k9yy4s4co(^g6r7oa*%lf48(rrs=1e5588h_=%ad'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [krishnarc.pythonanywhere.com]
 
 
 # Application definition
