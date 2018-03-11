@@ -1,0 +1,76 @@
+{% extends "Blood_app/base.html" %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static "css/indexstyle.css" %}">
+{% block body_block %}
+    <table id="mt">
+      <tr id='h'>
+        <td style="text-align: center;"><strong>Donors Eligibilities..</strong></td>
+        <td style="text-align: center;"><strong>Donors Non-Eligibilities</strong></td>
+      </tr>
+      <tr>
+        <td><ul id="p1">
+          <li>Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood.</li>
+          <li>Donor must be 18 -60 years age and having a minimum weight of 50Kg can donate blood.</li>
+          <li>Donor’s Hemoglobin level is 12.5% minimum.</li>
+          <li>A donor can again donate blood after 3 months of your last donation of blood.</li>
+          <li>Pulse rate must be between 50 to 100mm without any irregularities.</li>
+          <li>BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg.</li>
+          <li>  Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius.</li>
+        </ul></td>
+        <td><ul id="p2">
+          <li>Donors should not suffer from Cardiac arrest, hypertension, kidney alignments,epilepsy or diabetics.</li>
+          <li>  Ladies with a bad miscarriage should avoid donating blood for the next 6 months.</li>
+          <li>If donor already donated blood or have been treated for malaria within the last three months.</li>
+          <li>If donor undergone any immunization within the past one month.</li>
+          <li>If donor consumed alcohol within the last 24 hours.</li>
+          <li>If you are HIV+.</li>
+          <li>If donor had a dental work for next 24 hours and wait for one month if donor had a major dental procedure.</li>
+          </ul></td>
+      </tr>
+    </table>
+    <img id="infoimg" src="{% static 'images/BT.jpg' %}" alt="" width="200" height="180">
+    <!-- <table id="t1">
+      <tr id="loginheading">
+        <td>Admin Login</td>
+        <td>User Login</td> -->
+        <!-- <td>User signup</td> -->
+      <!-- </tr>
+      <tr>
+        <td id="cell1">
+          <form action="http://evanerichards.com/wp-content/uploads/2013/12/Thanks-580x250.gif" method="get">
+            <table id="in1">
+              <tr>
+                <td>User ID:</td>
+                <td><input type="text" name="User"placeholder="MuraliKrishna"required></td>
+              </tr>
+              <tr>
+                <td>Password:</td>
+                <td><input id="pass1"type="password" name="adminpass" placeholder="1230456"required></td>
+              </tr>
+              <tr id="loginrow1">
+                <td colspan="2"><input type="submit"name="Submitadmin" value="Login"></td>
+              </tr>
+            </table>
+          </form>
+        </td>
+        <td id="cell2">
+          <form action="http://evanerichards.com/wp-content/uploads/2013/12/Thanks-580x250.gif" method="get">
+            <table id="in2">
+              <tr>
+                <td>User ID:</td>
+                <td><input id="r12" type="text" name="Usersignup"placeholder="User name"required></td>
+              </tr>
+              <tr>
+                <td>Password:</td>
+                <td><input id="pass2"type="password" name="userpass" placeholder="1230456"required></td>
+              </tr>
+              <tr>
+                <td id="linkfsu"><a href="E:\002 Django-Python-Full-Stack-Web-Developer-Material\Django-Python-Full-Stack-Web-Devloper-master\CSS_Level_Two\Signupform.html">Be a hero!<br>Sign up..!</a></td>
+                <td id="loginrow2"><input type="Submit" name="Usersubmit" value="Login"></form></td>
+              </tr>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table> -->
+{% endblock %}

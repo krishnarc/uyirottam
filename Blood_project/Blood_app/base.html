@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+      <h1 style="color: white;text-align: center;background-color: black;margin:0px; padding:0px;">Uyirottam</h1>
+    <nav class="navbar navbar-expand-lg" style="background-color: black">
+      <div class="container">
+        <a class="navbar-brand"style="color:white;" href="#">
+         <img src="E://Blood donors logo.JPEG" width="30" height="30" class="d-inline-block align-top" alt="">
+         Uyirottam
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a style="color:white;"class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:white;"class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a style="color:white;"class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Login!
+              </a>
+              <div class="dropdown-menu" style="background-color:black;"aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" style="color:white;"href="#">User Login</a>
+                <a class="dropdown-item"style="color:white;" href="#">Admin Login</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    {% block body_block %}
+    {% endblock %}
+  </body>
+</html>

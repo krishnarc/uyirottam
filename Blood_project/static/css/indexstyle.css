@@ -1,0 +1,56 @@
+table{
+  table-layout: auto;
+  text-transform:  full-width;
+  margin: 60px 10px 20px 10px;
+}
+#h{
+  text-align: center;
+  font-size: 20px;
+}
+#mt{
+  margin-bottom: 40px;
+}
+#p1{
+  text-align: left;
+  list-style-type: circle;
+}
+#p2{
+  text-align: left;
+  list-style-type: circle;
+}
+#infoimg{
+  margin-left: 40px;
+  margin-top: 0px;
+}
+#t1{
+  float: right;
+}
+#loginheading{
+  text-align: center;
+  font-size: 20px;
+}
+#cell1{
+  padding: 0px;
+  margin: 0px;
+}
+#in1{
+  padding: 0px;
+  margin: 0px
+}
+#loginrow1{
+  text-align: right;
+}
+#in2{
+  padding: 0px;
+  margin: 0px
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+}
+#loginrow2{
+  text-align: right;
+}
